@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assistir Náutico x Ituano ao Vivo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+    }
+    .video-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    video {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Assistir Náutico x Ituano ao Vivo</h1>
+  </header>
+
+  <main>
+    <p>Jogo ao vivo em HD. Escolha uma das opções abaixo:</p>
+
+    <div class="video-container">
+      <video controls>
+        <source src="link_do_video_1.mp4" type="video/mp4">
+        Seu navegador não suporta a tag de vídeo.
+      </video>
+    </div>
+
+    <div class="video-container">
+      <video controls>
+        <source src="link_do_video_2.mp4" type="video/mp4">
+        Seu navegador não suporta a tag de vídeo.
+      </video>
+    </div>
+
+    <p>Se o vídeo não carregar, tente recarregar a página ou escolha outra opção.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Meu Streaming Esportivo</p>
+  </footer>
+
+</body>
+</html>
